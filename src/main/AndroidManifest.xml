@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aksalfirmansyah_uas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AksalFirmansyah_UAS">
+        <activity
+            android:name=".PM1.Layout"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.Webview"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.Laptop"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.Smartphone"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.P12"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.Teman"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.Berita"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.Beranda"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.P11"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.Halaman_A"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.P7"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.P6"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.P5"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.P4"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.P3"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.P2"
+            android:exported="false" />
+        <activity
+            android:name=".PM1.P1"
+            android:exported="false" />
+        <activity
+            android:name=".Biodata"
+            android:exported="false" />
+        <activity
+            android:name=".Pertemuan"
+            android:exported="false" />
+        <activity
+            android:name=".project"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
